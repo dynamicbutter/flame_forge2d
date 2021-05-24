@@ -9,7 +9,10 @@ environment:
 
 dependencies:
   flame: 1.0.0-rc10
-  forge2d: ^0.7.1
+  forge2d:
+    git:
+      url: "https://github.com/dynamicbutter/forge2d.git"
+      ref: "max_velocity"
 
   flutter:
     sdk: flutter
